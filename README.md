@@ -1,48 +1,43 @@
-# 🌐 API Simples em Python
+# API Python
 
-API simples criada com Flask para aprender conceitos básicos de backend.
+Simple portfolio API built with Flask and JSON endpoints.
 
-## 📌 Rotas
+## Live demo
 
-### Home
+https://api-python-peach-seven.vercel.app
 
-```
-/
-```
+## Highlights
 
-### Usuário
+- Clean Flask structure in a single file
+- Health check endpoint for monitoring
+- JSON routes for profile, projects, and stack data
+- Good starter project for backend portfolio examples
 
-```
-/usuario
-```
-
-Retorna informações em JSON.
-
-## 🚀 Como executar
-
-Instale Flask:
-
-```
-pip install flask
-```
-
-Execute:
-
-```
-python app.py
-```
-
-Abra no navegador:
-
-```
-http://127.0.0.1:5000
-```
-
-## 🛠 Tecnologias
+## Stack
 
 - Python
 - Flask
 
-## 👨‍💻 Autor
+## Install
 
-Douglas Aparecido da Silva
+```bash
+pip install -r requirements.txt
+```
+
+## Run locally
+
+```bash
+python app.py
+```
+
+Open `http://127.0.0.1:5000` and test:
+
+- `/`
+- `/health`
+- `/api/profile`
+- `/api/projects`
+- `/api/stack`
+
+## Author
+
+Douglas Aparecido Silva
