@@ -4,7 +4,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 PROFILE = {
-    "name": "Douglas Silva",
+    "name": "Becker",
     "role": "Junior Full Stack Developer",
     "location": "Sao Paulo, Brazil",
     "focus": "Landing pages, dashboards, APIs, and SaaS interfaces",
